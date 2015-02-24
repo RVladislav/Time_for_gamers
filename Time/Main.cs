@@ -13,6 +13,8 @@ namespace Time
     public partial class Main : Form
     {
         string h, m, s;
+        int mX = 0;
+        int mY = 0;
 
         public Main()
         {
@@ -46,31 +48,10 @@ namespace Time
             //прозрачное окно
             //Color cl = lblTime.BackColor;
             //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            //this.BackColor = System.Drawing.Color.WhiteSmoke;
-            //this.TransparencyKey = System.Drawing.Color.WhiteSmoke;
+            //this.BackColor = System.Drawing.Color.DeepSkyBlue;
+            //this.TransparencyKey = System.Drawing.Color.DeepSkyBlue;
             //lblTime.BackColor = cl;
-            this.Opacity = 0.7;
-        }
-
-        private void leftToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Point pt = Screen.PrimaryScreen.WorkingArea.Location;
-            pt.Offset(0, 0);
-            this.Location = pt;
-        }
-
-        private void centerToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Point pt = Screen.PrimaryScreen.WorkingArea.Location;
-            pt.Offset(Screen.PrimaryScreen.WorkingArea.Width/2 - this.Width/2, 0);
-            this.Location = pt;
-        }
-
-        private void rightToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Point pt = Screen.PrimaryScreen.WorkingArea.Location;
-            pt.Offset(Screen.PrimaryScreen.WorkingArea.Width - this.Width, 0);
-            this.Location = pt;
+            this.Opacity = 0.8;
         }
 
         private void lblTime_DoubleClick(object sender, EventArgs e)
@@ -82,6 +63,122 @@ namespace Time
         {
             Application.Exit();
         }
+
+        private void lblTime_MouseDown(object sender, MouseEventArgs e)
+        {
+            mX = e.X;
+            mY = e.Y;
+        }
+
+        private void Main_MouseDown(object sender, MouseEventArgs e)
+        {
+            mX = e.X;
+            mY = e.Y;
+        }
+
+        private void MoveWindow(MouseEventArgs e)
+        {
+            int tmp = e.X - mX;//направление сдвига окна
+
+            if (tmp > 0)
+            {
+                if (this.Location.X == 0)
+                {
+                    Point pt = Screen.PrimaryScreen.WorkingArea.Location;
+                    pt.Offset(Screen.PrimaryScreen.WorkingArea.Width / 2 - this.Width / 2, 0);
+                    this.Location = pt;
+                }
+                else
+                {
+                    Point pt = Screen.PrimaryScreen.WorkingArea.Location;
+                    pt.Offset(Screen.PrimaryScreen.WorkingArea.Width - this.Width, 0);
+                    this.Location = pt;
+                }
+
+                mY = 0;
+                mX = 0;
+            }
+            if (tmp < 0)
+            {
+                if (this.Location.X == Screen.PrimaryScreen.WorkingArea.Width / 2 - this.Width / 2)
+                {
+                    Point pt = Screen.PrimaryScreen.WorkingArea.Location;
+                    pt.Offset(0, 0);
+                    this.Location = pt;
+                }
+                else
+                {
+                    Point pt = Screen.PrimaryScreen.WorkingArea.Location;
+                    pt.Offset(Screen.PrimaryScreen.WorkingArea.Width / 2 - this.Width / 2, 0);
+                    this.Location = pt;
+                }
+
+                mY = 0;
+                mX = 0;
+            } 
+        }
+
+        private void Main_MouseUp(object sender, MouseEventArgs e)
+        {
+            MoveWindow(e);
+        }
+
+        private void lblTime_MouseUp(object sender, MouseEventArgs e)
+        {
+            MoveWindow(e);
+        }
+
+        private void Switch_Text_Color(Color cl)
+        {
+            lblTime.ForeColor = cl;
+        }
+
+        private void Switch_Back_Color(Color cl)
+        {
+            this.BackColor = cl;
+        }
+
+        private void tsmC1_Click(object sender, EventArgs e)
+        {
+            Switch_Text_Color(Color.DarkRed);
+        }
+
+        private void tsmC2_Click(object sender, EventArgs e)
+        {
+            Switch_Text_Color(Color.Orange);
+        }
+
+        private void tsmC6_Click(object sender, EventArgs e)
+        {
+            Switch_Text_Color(Color.DeepPink);
+        }
+
+        private void tsmC3_Click(object sender, EventArgs e)
+        {
+            Switch_Text_Color(Color.LimeGreen);
+        }
+
+        private void tsmC4_Click(object sender, EventArgs e)
+        {
+            Switch_Text_Color(Color.DeepSkyBlue);
+        }
+
+        private void tsmC5_Click(object sender, EventArgs e)
+        {
+            Switch_Text_Color(Color.MediumOrchid);
+        }
+
+        private void tsmCB1_Click(object sender, EventArgs e)
+        {
+            Switch_Back_Color(Color.White);
+        }
+
+        private void tsmCB2_Click(object sender, EventArgs e)
+        {
+            Switch_Back_Color(Color.Black);
+        }
+
+
 
 
     }

@@ -128,32 +128,44 @@
     <value>99, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="leftToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tsmC1.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
-  <data name="leftToolStripMenuItem.Text" xml:space="preserve">
-    <value>Left</value>
-  </data>
-  <data name="centerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tsmC2.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
-  <data name="centerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Center</value>
-  </data>
-  <data name="rightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tsmC3.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
-  <data name="rightToolStripMenuItem.Text" xml:space="preserve">
-    <value>Right</value>
-  </data>
-  <data name="positionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tsmC4.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
-  <data name="positionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Position</value>
+  <data name="tsmC5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="tsmC6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="tsmColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="tsmColor.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="tsmCB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="tsmCB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="bColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="bColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>BColor</value>
   </data>
   <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 48</value>
+    <value>153, 70</value>
   </data>
   <data name="&gt;&gt;contextMenuStrip.Name" xml:space="preserve">
     <value>contextMenuStrip</value>
@@ -210,28 +222,64 @@
   <data name="&gt;&gt;Timer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;positionToolStripMenuItem.Name" xml:space="preserve">
-    <value>positionToolStripMenuItem</value>
+  <data name="&gt;&gt;tsmColor.Name" xml:space="preserve">
+    <value>tsmColor</value>
   </data>
-  <data name="&gt;&gt;positionToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;tsmColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;leftToolStripMenuItem.Name" xml:space="preserve">
-    <value>leftToolStripMenuItem</value>
+  <data name="&gt;&gt;tsmC1.Name" xml:space="preserve">
+    <value>tsmC1</value>
   </data>
-  <data name="&gt;&gt;leftToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;tsmC1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;centerToolStripMenuItem.Name" xml:space="preserve">
-    <value>centerToolStripMenuItem</value>
+  <data name="&gt;&gt;tsmC2.Name" xml:space="preserve">
+    <value>tsmC2</value>
   </data>
-  <data name="&gt;&gt;centerToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;tsmC2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;rightToolStripMenuItem.Name" xml:space="preserve">
-    <value>rightToolStripMenuItem</value>
+  <data name="&gt;&gt;tsmC3.Name" xml:space="preserve">
+    <value>tsmC3</value>
   </data>
-  <data name="&gt;&gt;rightToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;tsmC3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmC4.Name" xml:space="preserve">
+    <value>tsmC4</value>
+  </data>
+  <data name="&gt;&gt;tsmC4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmC5.Name" xml:space="preserve">
+    <value>tsmC5</value>
+  </data>
+  <data name="&gt;&gt;tsmC5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmC6.Name" xml:space="preserve">
+    <value>tsmC6</value>
+  </data>
+  <data name="&gt;&gt;tsmC6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bColorToolStripMenuItem.Name" xml:space="preserve">
+    <value>bColorToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;bColorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCB1.Name" xml:space="preserve">
+    <value>tsmCB1</value>
+  </data>
+  <data name="&gt;&gt;tsmCB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCB2.Name" xml:space="preserve">
+    <value>tsmCB2</value>
+  </data>
+  <data name="&gt;&gt;tsmCB2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
