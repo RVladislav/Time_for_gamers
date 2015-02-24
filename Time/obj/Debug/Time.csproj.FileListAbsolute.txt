@@ -1,0 +1,9 @@
+F:\Work\VS2013\Projects\Time\Time\bin\Debug\Time.exe.config
+F:\Work\VS2013\Projects\Time\Time\bin\Debug\Time.exe
+F:\Work\VS2013\Projects\Time\Time\bin\Debug\Time.pdb
+F:\Work\VS2013\Projects\Time\Time\obj\Debug\Time.csprojResolveAssemblyReference.cache
+F:\Work\VS2013\Projects\Time\Time\obj\Debug\Time.Properties.Resources.resources
+F:\Work\VS2013\Projects\Time\Time\obj\Debug\Time.csproj.GenerateResource.Cache
+F:\Work\VS2013\Projects\Time\Time\obj\Debug\Time.exe
+F:\Work\VS2013\Projects\Time\Time\obj\Debug\Time.pdb
+F:\Work\VS2013\Projects\Time\Time\obj\Debug\Time.Form1.resources
