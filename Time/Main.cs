@@ -18,11 +18,13 @@ namespace Time
 
         public Main()
         {
+            TopMost = true; 
             InitializeComponent();
         }
 
         private void Timer_Tick(object sender, EventArgs e)
         {
+
             h = DateTime.Now.Hour.ToString();
             m = DateTime.Now.Minute.ToString();
             s = DateTime.Now.Second.ToString();
@@ -46,11 +48,12 @@ namespace Time
         private void Main_Load(object sender, EventArgs e)
         {
             //прозрачное окно
-            //Color cl = lblTime.BackColor;
-            //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            //this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            //this.TransparencyKey = System.Drawing.Color.DeepSkyBlue;
-            //lblTime.BackColor = cl;
+            Color cl = lblTime.BackColor;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.BackColor = System.Drawing.Color.White;
+            this.TransparencyKey = System.Drawing.Color.Black;
+            lblTime.BackColor = cl;
+
             this.Opacity = 0.8;
         }
 
@@ -178,8 +181,26 @@ namespace Time
             Switch_Back_Color(Color.Black);
         }
 
+        private void tsmLeft_Click(object sender, EventArgs e)
+        {
+            Point pt = Screen.PrimaryScreen.WorkingArea.Location;
+            pt.Offset(0, 0);
+            this.Location = pt;
+        }
 
+        private void tsmCenter_Click(object sender, EventArgs e)
+        {
+            Point pt = Screen.PrimaryScreen.WorkingArea.Location;
+            pt.Offset(Screen.PrimaryScreen.WorkingArea.Width / 2 - this.Width / 2, 0);
+            this.Location = pt;
+        }
 
+        private void tsmRight_Click(object sender, EventArgs e)
+        {
+            Point pt = Screen.PrimaryScreen.WorkingArea.Location;
+            pt.Offset(Screen.PrimaryScreen.WorkingArea.Width - this.Width, 0);
+            this.Location = pt;
+        }
 
     }
 }

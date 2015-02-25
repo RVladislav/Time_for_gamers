@@ -128,6 +128,33 @@
     <value>99, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tsmLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="tsmLeft.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="tsmCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="tsmCenter.Text" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="tsmRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="tsmRight.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="locationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="locationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
   <data name="tsmC1.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
@@ -158,6 +185,9 @@
   <data name="tsmCB2.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
+  <data name="tsmCB2.Text" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
   <data name="bColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>152, 22</value>
   </data>
@@ -165,7 +195,7 @@
     <value>BColor</value>
   </data>
   <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 70</value>
+    <value>153, 98</value>
   </data>
   <data name="&gt;&gt;contextMenuStrip.Name" xml:space="preserve">
     <value>contextMenuStrip</value>
@@ -281,6 +311,36 @@
   </data>
   <data name="&gt;&gt;tsmCB2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;locationToolStripMenuItem.Name" xml:space="preserve">
+    <value>locationToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;locationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmLeft.Name" xml:space="preserve">
+    <value>tsmLeft</value>
+  </data>
+  <data name="&gt;&gt;tsmLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmCenter.Name" xml:space="preserve">
+    <value>tsmCenter</value>
+  </data>
+  <data name="&gt;&gt;tsmCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmRight.Name" xml:space="preserve">
+    <value>tsmRight</value>
+  </data>
+  <data name="&gt;&gt;tsmRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Main</value>
