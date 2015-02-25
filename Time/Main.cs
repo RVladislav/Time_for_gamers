@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using System.Diagnostics;
+//using System.Runtime.InteropServices;
 
 namespace Time
 {
@@ -16,10 +18,13 @@ namespace Time
         int mX = 0;
         int mY = 0;
 
+        //public static extern IntPtr SetWindowPos(string hWnd, int hWndInsertAfter, int x, int Y, int cx, int cy, int wFlags);
+        //static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
+
         public Main()
         {
             TopMost = true; 
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -43,6 +48,32 @@ namespace Time
             }
 
             lblTime.Text = h + ":" + m + ":" + s;
+
+
+
+
+
+            //const short SWP_NOSIZE = 1;
+            //const short SWP_NOZORDER = 0X4;
+            //const int SWP_SHOWWINDOW = 0x0040;
+
+            //Process[] processes = Process.GetProcesses();
+
+
+            //foreach (var process in processes)
+            //{
+            //    IntPtr handle = FindWindow(null, lblTime.Text);
+            //    string Text = handle.ToString();
+
+            //    if (handle != IntPtr.Zero)
+            //    {
+            //        SetWindowPos(Text, 0, 0, 0, 0, 0, SWP_NOZORDER | SWP_NOSIZE | SWP_SHOWWINDOW);
+            //    }
+            //}
+
+
+
+
         }
 
         private void Main_Load(object sender, EventArgs e)
