@@ -48,6 +48,8 @@
             this.bColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmCB1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmCB2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmHide = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,7 +76,9 @@
             this.locationToolStripMenuItem,
             this.toolStripSeparator1,
             this.tsmColor,
-            this.bColorToolStripMenuItem});
+            this.bColorToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.tsmHide});
             this.contextMenuStrip.Name = "contextMenuStrip";
             resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             // 
@@ -186,6 +190,18 @@
             resources.ApplyResources(this.tsmCB2, "tsmCB2");
             this.tsmCB2.Click += new System.EventHandler(this.tsmCB2_Click);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
+            // tsmHide
+            // 
+            this.tsmHide.CheckOnClick = true;
+            this.tsmHide.Name = "tsmHide";
+            resources.ApplyResources(this.tsmHide, "tsmHide");
+            this.tsmHide.Click += new System.EventHandler(this.tsmHide_Click);
+            // 
             // frmMain
             // 
             resources.ApplyResources(this, "$this");
@@ -229,6 +245,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmCenter;
         private System.Windows.Forms.ToolStripMenuItem tsmRight;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem tsmHide;
     }
 }
 

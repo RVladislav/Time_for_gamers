@@ -266,5 +266,18 @@ namespace Time
             Switch_Position(2);
         }
 
+        private void tsmHide_Click(object sender, EventArgs e)
+        {
+            switch(tsmHide.Checked)
+            {
+                case true:
+                    TopMost = false;
+                    break;
+                case false:
+                    TopMost = true;
+                    break;
+            }
+        }
+
     }
 }
