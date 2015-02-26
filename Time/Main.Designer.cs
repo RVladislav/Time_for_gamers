@@ -1,6 +1,6 @@
 ﻿namespace Time
 {
-    partial class Main
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.Timer = new System.Windows.Forms.Timer(this.components);
             this.lblTime = new System.Windows.Forms.Label();
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.locationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmLeft = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmCenter = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmRight = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmColor = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmC1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmC2 = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,11 +48,6 @@
             this.bColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmCB1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmCB2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.locationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmLeft = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmCenter = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmRight = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.contextMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,6 +77,38 @@
             this.bColorToolStripMenuItem});
             this.contextMenuStrip.Name = "contextMenuStrip";
             resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
+            // 
+            // locationToolStripMenuItem
+            // 
+            this.locationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmLeft,
+            this.tsmCenter,
+            this.tsmRight});
+            this.locationToolStripMenuItem.Name = "locationToolStripMenuItem";
+            resources.ApplyResources(this.locationToolStripMenuItem, "locationToolStripMenuItem");
+            // 
+            // tsmLeft
+            // 
+            this.tsmLeft.Name = "tsmLeft";
+            resources.ApplyResources(this.tsmLeft, "tsmLeft");
+            this.tsmLeft.Click += new System.EventHandler(this.tsmLeft_Click);
+            // 
+            // tsmCenter
+            // 
+            this.tsmCenter.Name = "tsmCenter";
+            resources.ApplyResources(this.tsmCenter, "tsmCenter");
+            this.tsmCenter.Click += new System.EventHandler(this.tsmCenter_Click);
+            // 
+            // tsmRight
+            // 
+            this.tsmRight.Name = "tsmRight";
+            resources.ApplyResources(this.tsmRight, "tsmRight");
+            this.tsmRight.Click += new System.EventHandler(this.tsmRight_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // tsmColor
             // 
@@ -154,39 +186,7 @@
             resources.ApplyResources(this.tsmCB2, "tsmCB2");
             this.tsmCB2.Click += new System.EventHandler(this.tsmCB2_Click);
             // 
-            // locationToolStripMenuItem
-            // 
-            this.locationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmLeft,
-            this.tsmCenter,
-            this.tsmRight});
-            this.locationToolStripMenuItem.Name = "locationToolStripMenuItem";
-            resources.ApplyResources(this.locationToolStripMenuItem, "locationToolStripMenuItem");
-            // 
-            // tsmLeft
-            // 
-            this.tsmLeft.Name = "tsmLeft";
-            resources.ApplyResources(this.tsmLeft, "tsmLeft");
-            this.tsmLeft.Click += new System.EventHandler(this.tsmLeft_Click);
-            // 
-            // tsmCenter
-            // 
-            this.tsmCenter.Name = "tsmCenter";
-            resources.ApplyResources(this.tsmCenter, "tsmCenter");
-            this.tsmCenter.Click += new System.EventHandler(this.tsmCenter_Click);
-            // 
-            // tsmRight
-            // 
-            this.tsmRight.Name = "tsmRight";
-            resources.ApplyResources(this.tsmRight, "tsmRight");
-            this.tsmRight.Click += new System.EventHandler(this.tsmRight_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
-            // 
-            // Main
+            // frmMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -196,10 +196,9 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Main";
+            this.Name = "frmMain";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.TopMost = true;
             this.Load += new System.EventHandler(this.Main_Load);
             this.DoubleClick += new System.EventHandler(this.Main_DoubleClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);

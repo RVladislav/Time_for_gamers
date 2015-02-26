@@ -1,0 +1,9 @@
+F:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.exe.config
+F:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.exe
+F:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.pdb
+F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.csprojResolveAssemblyReference.cache
+F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.Properties.Resources.resources
+F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.csproj.GenerateResource.Cache
+F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.exe
+F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.pdb
+F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.frmMain.resources
