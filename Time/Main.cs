@@ -19,43 +19,6 @@ namespace Time
         int mX = 0;
         int mY = 0;
 
-        //static readonly IntPtr HWND_TOPMOST = new IntPtr(-1);
-        //const UInt32 SWP_SHOWWINDOW = 0x0040;
-
-        //internal struct RECT
-        //{
-        //    public int left;
-        //    public int top;
-        //    public int right;
-        //    public int bottom;
-        //}
-
-        //[DllImport("user32.dll", ExactSpelling = true, SetLastError = true)]
-        //internal static extern IntPtr GetForegroundWindow();
-
-        //[DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall, ExactSpelling = true, SetLastError = true)]
-        //internal static extern bool GetWindowRect(IntPtr hWnd, ref RECT rect);
-
-        //[DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall, ExactSpelling = true, SetLastError = true)]
-        //internal static extern void MoveWindow(IntPtr hwnd, int X, int Y, int nWidth, int nHeight, bool bRepaint);
-
-        //[DllImport("user32.dll", SetLastError = true)]
-        //private static extern IntPtr FindWindow(String lpClassName, String lpWindowName);
-
-        //[DllImport("user32.dll")]
-        //[return: MarshalAs(UnmanagedType.Bool)]
-        //private static extern bool SetWindowPos(IntPtr hWnd, IntPtr hWndInsertAfter, int x, int y, int cx, int cy, uint uFlags);
-        
-        //[DllImport("user32.dll", EntryPoint = "SetWindowPos")]
-        //static extern bool SetWindowPos(
-        //     int hWnd,           // window handle
-        //     int hWndInsertAfter,    // placement-order handle
-        //     int X,          // horizontal position
-        //     int Y,          // vertical position
-        //     int cx,         // width
-        //     int cy,         // height
-        //     uint uFlags);
-
         public frmMain()
         {
             TopMost = true;
@@ -67,7 +30,6 @@ namespace Time
             h = DateTime.Now.Hour.ToString();
             m = DateTime.Now.Minute.ToString();
             s = DateTime.Now.Second.ToString();
-
             if (h.Count() < 2)
                 h = "0" + h;
 
@@ -78,32 +40,8 @@ namespace Time
                 s = "0" + s;
 
             lblTime.Text = h + ":" + m + ":" + s;
-
-            //AssignTopmostWindow();
-            //SetWindowPos(this.Handle.ToInt32(), -1, this.Left, this.Top, this.Width, this.Height, 0x0010 | 0x0200 | 0x0040);
             
         }
-
-        //void AssignTopmostWindow()
-        //{
-
-
-        //    //IntPtr hWnd = FindWindow(null, "Time");
-
-        //    //SetWindowPos(hWnd, HWND_TOPMOST, this.Location.X, this.Location.Y, this.Width, this.Height, SWP_SHOWWINDOW);
-
-        //    IntPtr id;
-        //    RECT Rect = new RECT();
-        //    //Thread.Sleep(2000);
-        //    id = GetForegroundWindow();
-        //    GetWindowRect(id, ref Rect);
-        //    if (id != this.Handle)
-        //    {
-        //        //MoveWindow(this.Handle, this.Location.X, this.Location.Y, this.Width, this.Height, true);
-        //        SetWindowPos(this.Handle, HWND_TOPMOST, this.Location.X, this.Location.Y, this.Width, this.Height, SWP_SHOWWINDOW);
-        //    }
-      
-        //}
 
         private void Main_Load(object sender, EventArgs e)
         {
@@ -250,7 +188,7 @@ namespace Time
         {
             Switch_Back_Color(Color.Black);
         }
-
+//
         private void tsmLeft_Click(object sender, EventArgs e)
         {
             Switch_Position(0);
