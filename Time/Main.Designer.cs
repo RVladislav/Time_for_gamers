@@ -47,9 +47,11 @@
             this.tsmC6 = new System.Windows.Forms.ToolStripMenuItem();
             this.bColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmCB1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmCB3 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmCB2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmHide = new System.Windows.Forms.ToolStripMenuItem();
+            this.tmrHover = new System.Windows.Forms.Timer(this.components);
             this.contextMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,6 +70,7 @@
             this.lblTime.Name = "lblTime";
             this.lblTime.DoubleClick += new System.EventHandler(this.lblTime_DoubleClick);
             this.lblTime.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lblTime_MouseDown);
+            this.lblTime.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lblTime_MouseMove);
             this.lblTime.MouseUp += new System.Windows.Forms.MouseEventHandler(this.lblTime_MouseUp);
             // 
             // contextMenuStrip
@@ -172,6 +175,7 @@
             // 
             this.bColorToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmCB1,
+            this.tsmCB3,
             this.tsmCB2});
             this.bColorToolStripMenuItem.Name = "bColorToolStripMenuItem";
             resources.ApplyResources(this.bColorToolStripMenuItem, "bColorToolStripMenuItem");
@@ -182,6 +186,13 @@
             this.tsmCB1.Name = "tsmCB1";
             resources.ApplyResources(this.tsmCB1, "tsmCB1");
             this.tsmCB1.Click += new System.EventHandler(this.tsmCB1_Click);
+            // 
+            // tsmCB3
+            // 
+            this.tsmCB3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.tsmCB3.Name = "tsmCB3";
+            resources.ApplyResources(this.tsmCB3, "tsmCB3");
+            this.tsmCB3.Click += new System.EventHandler(this.tsmCB3_Click);
             // 
             // tsmCB2
             // 
@@ -202,6 +213,11 @@
             resources.ApplyResources(this.tsmHide, "tsmHide");
             this.tsmHide.Click += new System.EventHandler(this.tsmHide_Click);
             // 
+            // tmrHover
+            // 
+            this.tmrHover.Interval = 500;
+            this.tmrHover.Tick += new System.EventHandler(this.tmrHover_Tick_1);
+            // 
             // frmMain
             // 
             resources.ApplyResources(this, "$this");
@@ -218,6 +234,7 @@
             this.Load += new System.EventHandler(this.Main_Load);
             this.DoubleClick += new System.EventHandler(this.Main_DoubleClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frmMain_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Main_MouseUp);
             this.contextMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -247,6 +264,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem tsmHide;
+        private System.Windows.Forms.ToolStripMenuItem tsmCB3;
+        private System.Windows.Forms.Timer tmrHover;
     }
 }
 

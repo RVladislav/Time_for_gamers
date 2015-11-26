@@ -128,81 +128,6 @@
     <value>99, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tsmLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 22</value>
-  </data>
-  <data name="tsmLeft.Text" xml:space="preserve">
-    <value>Left</value>
-  </data>
-  <data name="tsmCenter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 22</value>
-  </data>
-  <data name="tsmCenter.Text" xml:space="preserve">
-    <value>Center</value>
-  </data>
-  <data name="tsmRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 22</value>
-  </data>
-  <data name="tsmRight.Text" xml:space="preserve">
-    <value>Right</value>
-  </data>
-  <data name="locationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="locationToolStripMenuItem.Text" xml:space="preserve">
-    <value>Location</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 6</value>
-  </data>
-  <data name="tsmC1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="tsmC2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="tsmC3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="tsmC4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="tsmC5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="tsmC6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 22</value>
-  </data>
-  <data name="tsmColor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="tsmColor.Text" xml:space="preserve">
-    <value>Color</value>
-  </data>
-  <data name="tsmCB1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 22</value>
-  </data>
-  <data name="tsmCB2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 22</value>
-  </data>
-  <data name="tsmCB2.Text" xml:space="preserve">
-    <value>Transparent</value>
-  </data>
-  <data name="bColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="bColorToolStripMenuItem.Text" xml:space="preserve">
-    <value>BColor</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 6</value>
-  </data>
-  <data name="tsmHide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 22</value>
-  </data>
-  <data name="tsmHide.Text" xml:space="preserve">
-    <value>Hide</value>
-  </data>
   <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 104</value>
   </data>
@@ -242,6 +167,87 @@
   <data name="&gt;&gt;lblTime.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="locationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="locationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="tsmLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 22</value>
+  </data>
+  <data name="tsmLeft.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="tsmCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 22</value>
+  </data>
+  <data name="tsmCenter.Text" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="tsmRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 22</value>
+  </data>
+  <data name="tsmRight.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 6</value>
+  </data>
+  <data name="tsmColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="tsmColor.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="tsmC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="tsmC2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="tsmC3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="tsmC4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="tsmC5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="tsmC6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="bColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="bColorToolStripMenuItem.Text" xml:space="preserve">
+    <value>BColor</value>
+  </data>
+  <data name="tsmCB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="tsmCB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="tsmCB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="tsmCB2.Text" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 6</value>
+  </data>
+  <data name="tsmHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 22</value>
+  </data>
+  <data name="tsmHide.Text" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <metadata name="tmrHover.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>248, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -348,6 +354,12 @@
   <data name="&gt;&gt;tsmCB1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;tsmCB3.Name" xml:space="preserve">
+    <value>tsmCB3</value>
+  </data>
+  <data name="&gt;&gt;tsmCB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;tsmCB2.Name" xml:space="preserve">
     <value>tsmCB2</value>
   </data>
@@ -365,6 +377,12 @@
   </data>
   <data name="&gt;&gt;tsmHide.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmrHover.Name" xml:space="preserve">
+    <value>tmrHover</value>
+  </data>
+  <data name="&gt;&gt;tmrHover.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmMain</value>

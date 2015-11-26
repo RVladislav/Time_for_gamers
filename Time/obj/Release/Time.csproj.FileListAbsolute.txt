@@ -7,3 +7,7 @@ F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.csproj.GenerateResource.Cac
 F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.exe
 F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.pdb
 F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.frmMain.resources
+F:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.exe.manifest
+F:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.application
+F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.exe.manifest
+F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.application

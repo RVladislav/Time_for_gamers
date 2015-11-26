@@ -9,6 +9,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Description = simply click for desktop
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{940A1882-8F2B-4D78-922A-DDDA992C0EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

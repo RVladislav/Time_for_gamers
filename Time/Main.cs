@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Text;
 
 using System.Runtime.InteropServices;
 using System.Diagnostics;
@@ -19,10 +20,14 @@ namespace Time
         int mX = 0;
         int mY = 0;
 
+        int tickIt = 0;
+        
+        PrivateFontCollection fontCollect;
+
         public frmMain()
         {
             TopMost = true;
-            InitializeComponent();
+            InitializeComponent();         
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -40,11 +45,12 @@ namespace Time
                 s = "0" + s;
 
             lblTime.Text = h + ":" + m + ":" + s;
-            
+
         }
 
         private void Main_Load(object sender, EventArgs e)
         {
+
             //прозрачное окно
             Color cl = lblTime.BackColor;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -188,7 +194,7 @@ namespace Time
         {
             Switch_Back_Color(Color.Black);
         }
-//
+        //
         private void tsmLeft_Click(object sender, EventArgs e)
         {
             Switch_Position(0);
@@ -206,7 +212,7 @@ namespace Time
 
         private void tsmHide_Click(object sender, EventArgs e)
         {
-            switch(tsmHide.Checked)
+            switch (tsmHide.Checked)
             {
                 case true:
                     TopMost = false;
@@ -214,6 +220,42 @@ namespace Time
                 case false:
                     TopMost = true;
                     break;
+            }
+        }
+
+        private void tsmCB3_Click(object sender, EventArgs e)
+        {
+            Switch_Back_Color(Color.DarkGray);
+        }
+
+        private void tmrHover_Tick_1(object sender, EventArgs e)
+        {
+            tickIt++;
+
+            if (tickIt == 2)
+            {
+                Switch_Back_Color(Color.White);
+                tmrHover.Stop();
+                tmrHover.Dispose();
+                tmrHover.Enabled = false;
+            }
+        }
+
+        private void frmMain_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (Color.Black == this.BackColor)
+            {
+                tmrHover.Enabled = true;
+                tmrHover.Start();
+            }
+        }
+
+        private void lblTime_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (Color.Black == this.BackColor)
+            {
+                tmrHover.Enabled = true;
+                tmrHover.Start();
             }
         }
 
