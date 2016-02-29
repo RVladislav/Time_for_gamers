@@ -11,3 +11,15 @@ F:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.exe.manifest
 F:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.application
 F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.exe.manifest
 F:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.application
+E:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.exe.config
+E:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.exe
+E:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.pdb
+E:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.exe.manifest
+E:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.application
+E:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.exe
+E:\Work\GitHub\Time_for_gamers\Time\bin\Release\Time.pdb
+E:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.frmMain.resources
+E:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.Properties.Resources.resources
+E:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.csproj.GenerateResource.Cache
+E:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.exe.manifest
+E:\Work\GitHub\Time_for_gamers\Time\obj\Release\Time.application

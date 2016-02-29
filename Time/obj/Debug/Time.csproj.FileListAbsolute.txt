@@ -16,3 +16,16 @@ F:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.csprojResolveAssemblyReferenc
 F:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.Properties.Resources.resources
 F:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.csproj.GenerateResource.Cache
 F:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.frmMain.resources
+E:\Work\GitHub\Time_for_gamers\Time\bin\Debug\Time.exe.config
+E:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.exe
+E:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.pdb
+E:\Work\GitHub\Time_for_gamers\Time\bin\Debug\Time.exe.manifest
+E:\Work\GitHub\Time_for_gamers\Time\bin\Debug\Time.application
+E:\Work\GitHub\Time_for_gamers\Time\bin\Debug\Time.exe
+E:\Work\GitHub\Time_for_gamers\Time\bin\Debug\Time.pdb
+E:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.csprojResolveAssemblyReference.cache
+E:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.frmMain.resources
+E:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.Properties.Resources.resources
+E:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.csproj.GenerateResource.Cache
+E:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.exe.manifest
+E:\Work\GitHub\Time_for_gamers\Time\obj\Debug\Time.application
